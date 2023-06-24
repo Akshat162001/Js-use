@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rectangle Area Calculator</title>
+  <script>
+    function calculateArea() {
+      var length = document.getElementById('length').value;
+      var breadth = document.getElementById('breadth').value;
+
+      var area = length * breadth;
+
+      document.getElementById('result').innerHTML = 'The area of the rectangle is: ' + area;
+    }
+  </script>
+</head>
+<body>
+  <h1>Rectangle Area Calculator</h1>
+  <label for="length">Length:</label>
+  <input type="number" id="length"><br><br>
+
+  <label for="breadth">Breadth:</label>
+  <input type="number" id="breadth"><br><br>
+
+  <button onclick="calculateArea()">Calculate</button>
+
+  <div id="result"></div>
+</body>
+</html>
