@@ -7,6 +7,7 @@ And another Small that help to provide the understanding of javascript function
 
 
 
+
 Anyone interested can make changes in this code to make it more attractive
 
 
